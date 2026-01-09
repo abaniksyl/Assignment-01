@@ -77,7 +77,7 @@
 }
 
 #second-heading {
-color: #469165;
+    color: #469165;
 }
 
 .hero-section p {
@@ -89,11 +89,65 @@ color: #469165;
 
 }
 
+/* early-access-section */
+
+#early-access-section {
+    padding: 0px 120px;
+}
+
+.early-access-container {
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 385px;
+    box-sizing: border-box;
+    padding: 80px 40px;
+}
+
+#early-access-title{
+    width: 1280px;
+    display: flex;
+    font-size: 40px;
+    color: #001931;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.early-access-description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.early-access-button{
+    margin: 0px 543px 16px;
+}
+
+.access-button{
+    background-color: #469165;
+    width: 194px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.early-access-note {
+    text-align: center;
+    color: #627382;
+}
+
 /* footer styles */
+
 footer {
     background-color: #001931;
     /* padding: 40px 120px; */
-    margin-top: 100px;
+    margin-top: 120px;
     max-width: 1600px;
     width: 100%;
 }
@@ -131,6 +185,7 @@ footer p {
     font-weight: regular;
     margin-bottom: 30px;
 }
+
 #social-links {
     display: flex;
     align-items: center;
