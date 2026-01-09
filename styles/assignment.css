@@ -1,12 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 #font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+
+button.hover:hover {
+    background-color: #8FEDD1;
+    color: #001931;
+    opacity: 0.7;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* main styles */
 
 .btn {
     background-color: #469165;
@@ -17,7 +28,7 @@
     font-size: 16px;
     font-weight: semi-bold;
     cursor: pointer;
-    margin: 24px 120px 24px 346px;
+    margin: 24px 120px 24px 0px;
 }
 
 .btn-2 {
@@ -31,64 +42,118 @@
     cursor: pointer;
 }
 
+/* navigation bar */
+
 #navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1600px;
-    width: 100%;
+    background-color: #FFFFFF;
 }
 
-#navigation .menu {
+#navigation {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#navigation .logo {
+    max-width: 139px;
+    margin: 16px 0px 16px 120px;
+}
+
+#navigation .menu ul {
     display: flex;
     text-decoration: none;
     list-style: none;
+    gap: 32px;
+    padding: 34px;
+    text-align: center;
 }
 
-#navigation .menu a {
+#navigation .menu ul a {
     text-decoration: none;
     color: #474747;
     font-size: 16px;
     font-weight: medium;
-    margin: 34px 0px;
+    /* margin: 34px 0px;
     background-color: #469165;
-    gap: 32px;
+    gap: 32px; */
 }
 
-#navigation .logo {
-    margin: 16px 346px 16px 120px;
-}
+/* hero section */
 
 .hero-section {
     background-image: url("../assets/hero-bg.png");
-    /* max-width: 1600px;
-    max-height: 674px; */
-    object-fit: cover;
-    padding: 115px 120px 179px 120px;
+    max-width: 1600px;
+    max-height: 674px;
+    width: 100%;
+    padding: 115px 120px 179px;
     text-align: center;
     background-repeat: no-repeat;
 }
 
-.hero-section h1 {
-    font-size: 48px;
-    font-weight: bold;
+.hero-section .content {
+    width: 1360px;
+    height: 379px;
+}
+
+.hero-section .content .hero-header {
+    text-align: center;
+}
+
+.content .hero-heading h1 {
+    font-size: 72px;
+    width: 770px;
+    height: 168px;
+    padding: 51px 295px 16px;
     color: #FFFFFF;
-    margin: 32px;
 }
 
-#second-heading {
-    color: #469165;
+.content .hero-heading h1 .green {
+    color: #30B868;
 }
 
-.hero-section p {
+.content p {
     font-size: 18px;
-    font-weight: regular;
     color: #FFFFFF;
-    margin: 50px 0px 32px 0px;
-    line-height: 28px;
-
+    width: 1360px;
+    margin: 0px auto;
+    line-height: 24px;
+    margin-bottom: 32px;
 }
 
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-buttons .btn-2 {
+    list-style: none;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        /* margin-left: 16px; */
+}
+
+.btn-3 {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 56px;
+}
+
+.btn-4 {
+    background-color: #F7F6F2;
+    color: #469165;
+    padding: 8px 12px 8px 34px;
+    border-radius: 20px;
+}
 /* problems-section */
 #problems-section {
     padding: 0PX 120px;
@@ -264,7 +329,8 @@
 /* footer styles */
 
 footer {
-    margin-top: 120px;}
+    margin-top: 120px;
+}
 
 footer {
     padding: 120px 120px 30px;
