@@ -156,6 +156,10 @@
 
 /* second-brain-section */
 
+/* #second-brain-section {
+    margin-bottom: 120px;
+} */
+
 #second-brain-section {
     padding: 120px;
     /* display: flex; */
@@ -249,6 +253,7 @@
     border: none;
     font-size: 16px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .early-access-note {
@@ -259,56 +264,73 @@
 /* footer styles */
 
 footer {
+    margin-top: 120px;}
+
+footer {
+    padding: 120px 120px 30px;
     background-color: #001931;
-    /* padding: 40px 120px; */
-    margin-top: 120px;
-    max-width: 1600px;
-    width: 100%;
 }
 
-.footer-container {
+footer .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 120px 120px 80px 120px;
 }
 
-#social-header {
-    color: #FFFFFF;
+footer .footer-content .footer-logo {
+    width: 350px;
+    height: 60px;
+    /* background-color: #F7F6F2; */
+
+}
+
+footer .footer-content .footer-social {
+    width: 220px;
+    height: 64px;
+    /* background-color: aqua; */
+}
+
+footer .footer-content .footer-social .social-hader {
     font-size: 20px;
-    font-weight: medium;
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 
-footer .footer-bottom {
-    text-align: center;
-    padding: 0px 120px 30px 120px;
+footer .footer-content .footer-social .social-logos ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
-footer hr {
+footer .footer-content .footer-social .social-logos ul img {
+    height: 11.5px;
+    width: 11.5px;
+    ;
+}
+
+footer .footer-content .footer-social .social-logos .circle {
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container .footer-copyright p {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+footer .footer-container .footer-copyright hr {
+    margin-top: 80px;
     border: 0;
     height: 1px;
     background-color: #CCCCCC;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     opacity: 20%;
-}
 
-footer p {
-    color: #FAFAFA;
-    font-size: 16px;
-    font-weight: regular;
-    margin-bottom: 30px;
-}
-
-#social-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    padding: 16px 0px 0px 0px;
-}
-
-#social-links a {
-    max-width: 20px;
-    max-height: 20px;
 }
