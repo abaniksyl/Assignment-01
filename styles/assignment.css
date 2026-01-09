@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn {
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    cursor: pointer;
+    margin: 24px 120px 24px 346px;
+}
+
+.btn-2 {
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    cursor: pointer;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 100%;
+}
+
+#navigation .menu {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+#navigation .menu a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 16px;
+    font-weight: medium;
+    margin: 34px 0px;
+    background-color: #469165;
+    gap: 32px;
+}
+
+#navigation .logo {
+    margin: 16px 346px 16px 120px;
+}
+
+.hero-section {
+    background-image: url("../assets/hero-bg.png");
+    /* max-width: 1600px;
+    max-height: 674px; */
+    object-fit: cover;
+    padding: 115px 120px 179px 120px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 32px;
+}
+
+#second-heading {
+color: #469165;
+}
+
+.hero-section p {
+    font-size: 18px;
+    font-weight: regular;
+    color: #FFFFFF;
+    margin: 50px 0px 32px 0px;
+    line-height: 28px;
+
+}
+
+/* footer styles */
+footer {
+    background-color: #001931;
+    /* padding: 40px 120px; */
+    margin-top: 100px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px 120px;
+}
+
+#social-header {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    padding: 0px 120px 30px 120px;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: #CCCCCC;
+    margin-bottom: 30px;
+    opacity: 20%;
+}
+
+footer p {
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: regular;
+    margin-bottom: 30px;
+}
+#social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 0px 0px 0px;
+}
+
+#social-links a {
+    max-width: 20px;
+    max-height: 20px;
+}
